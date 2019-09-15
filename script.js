@@ -90,7 +90,7 @@ var partyEvent = function() {
       // text in the button should read "Party Over"
      partyTimeButton.innerText="Party Time";
      partyTimeButton.style.backgroundColor = "#0A8DAB";
-      
+      // color of the button should be "#0A8DAB" (bonus!)
    }
    else {
       isPartyTime = false;
@@ -98,7 +98,7 @@ var partyEvent = function() {
      partyTimeButton.innerText = "Party Over";
      partyTimeButton.style.backgroundColor = "#222";
       // text in the button should read "PARTY TIME!"
-      
+      // color of the button should be "#222" (bonus!)
    }
 };
 
@@ -107,7 +107,7 @@ var partyEvent = function() {
 
 var wakeUpEvent = function()
 {
-  wakeUpTime = wakeUpTimeSelector.value;
+  wakeupTime = wakeUpTimeSelector.value;
 };
 
 
